@@ -1,7 +1,19 @@
 export function Experience() {
   const items = [
-    { role: 'Senior Full Stack Engineer', company: 'Acme Co.', period: '2022 — Present', summary: 'Led migration to Next.js, improved Core Web Vitals, and shipped design system.' },
-    { role: 'Product Designer', company: 'Studio X', period: '2020 — 2022', summary: 'Owned UX research through high-fidelity prototypes, boosting conversion by 18%.' }
+    {
+      role: 'Full Stack Developer',
+      company: 'Abyssinia Tech',
+      period: '2020 — 2022',
+      summary:
+        'Built websites and applications across the stack (MERN). Delivered features end-to-end, led small teams, and managed projects to on-time releases.'
+    },
+    {
+      role: 'Computer Maintenance & Network Administrator / Instructor',
+      company: 'Sheba University College',
+      period: '2019 — 2020',
+      summary:
+        'Maintained computers and networks, implemented updates and backups, ensured security, and supported users. Taught web development and graphic design fundamentals.'
+    }
   ];
   return (
     <section id="experience" className="scroll-mt-24">
