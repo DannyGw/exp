@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 12px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Typography tweaks */
+h1, h2, h3 {
+  @apply tracking-tight;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-semibold;
+}
+
+.card {
+  @apply rounded-2xl border border-black/5 dark:border-white/10 bg-white/70 dark:bg-white/5 backdrop-blur shadow-soft;
+}
