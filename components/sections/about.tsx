@@ -8,6 +8,14 @@ export function About() {
             With a background spanning product design and full stack engineering, I translate business goals into
             elegant, accessible interfaces and robust, scalable systems.
           </p>
+          <div className="mt-4">
+            <a
+              href="/resume"
+              className="inline-flex px-4 py-2 rounded-md border border-black/10 dark:border-white/10 hover:bg-black/5 dark:hover:bg-white/10 text-sm"
+            >
+              View CV
+            </a>
+          </div>
         </div>
         <ul className="card p-6 space-y-2">
           <li>React, Next.js, TypeScript</li>

@@ -29,6 +29,12 @@ export function Navbar() {
               {theme === 'dark' ? 'Light' : 'Dark'}
             </button>
           )}
+          <a
+            href="/resume"
+            className="hidden sm:inline-flex px-4 py-2 rounded-full border border-black/10 dark:border-white/10 hover:bg-black/5 dark:hover:bg-white/10"
+          >
+            Resume
+          </a>
           <a href="#contact" className="hidden sm:inline-flex px-4 py-2 rounded-full bg-primary text-primary-foreground shadow-soft">Hire me</a>
         </div>
       </div>
