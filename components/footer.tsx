@@ -4,8 +4,8 @@ export function Footer() {
       <div className="container py-10 text-sm opacity-70 flex items-center justify-between">
         <p>© {new Date().getFullYear()} Your Name</p>
         <div className="flex gap-4">
-          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
           <a href="mailto:hello@example.com">Email</a>
         </div>
       </div>
