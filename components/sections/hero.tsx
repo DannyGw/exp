@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export function Hero() {
   return (
@@ -37,9 +38,18 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.98 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="card aspect-[4/3] bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://drive.google.com/uc?export=view&id=1SuXaDdS4FDN-x9GHBqekt4nqznQYwp7a)' }}
-        />
+          className="card overflow-hidden"
+        >
+          <div className="relative w-full aspect-[4/3]">
+            <Image
+              src="https://drive.google.com/uc?export=view&id=1SuXaDdS4FDN-x9GHBqekt4nqznQYwp7a"
+              alt=""
+              fill
+              priority
+              className="object-cover"
+            />
+          </div>
+        </motion.div>
       </div>
     </section>
   );
