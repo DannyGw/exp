@@ -40,15 +40,10 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="card overflow-hidden"
         >
-          <div className="relative w-full aspect-[4/3]">
-            <Image
-              src="https://drive.google.com/uc?export=view&id=1SuXaDdS4FDN-x9GHBqekt4nqznQYwp7a"
-              alt=""
-              fill
-              priority
-              className="object-cover"
-            />
-          </div>
+          <div
+            className="w-full aspect-[4/3] bg-center bg-cover"
+            style={{ backgroundImage: 'url(https://drive.google.com/uc?export=view&id=1SuXaDdS4FDN-x9GHBqekt4nqznQYwp7a)' }}
+          />
         </motion.div>
       </div>
     </section>
