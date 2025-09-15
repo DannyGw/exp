@@ -12,7 +12,7 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-40 backdrop-blur bg-white/60 dark:bg-black/40 border-b border-black/5 dark:border-white/10">
       <div className="container flex items-center justify-between h-16">
-        <Link href="#" className="font-semibold tracking-tight">Portfolio</Link>
+        <Link href="#" className="font-semibold tracking-tight">Daniel G.</Link>
         <nav className="hidden md:flex gap-6 text-sm">
           <a href="#about" className="opacity-80 hover:opacity-100">About</a>
           <a href="#projects" className="opacity-80 hover:opacity-100">Projects</a>
